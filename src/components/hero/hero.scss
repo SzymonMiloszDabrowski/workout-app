@@ -1,0 +1,32 @@
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  height: 100vh;
+  padding: 200px;
+  .textBox {
+    position: relative;
+    max-width: 300px;
+    margin-right: 20px;
+
+    h2 {
+      font-size: 72px;
+      color: #deaf08;
+    }
+
+    h3 {
+      font-size: 36px;
+      font-weight: 300px;
+      color: #fff;
+    }
+
+    h4 {
+      font-size: 24px;
+      font-weight: 350;
+      color: #d4d4d4;
+      margin-bottom: 30px;
+    }
+  }
+}
