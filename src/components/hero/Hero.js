@@ -1,4 +1,5 @@
 import './hero.scss';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -7,9 +8,9 @@ const Hero = () => {
         <h2>Sukces</h2>
         <h3>jest jak drabina</h3>
         <h4>nie wejdziesz na nią trzymając ręce w kieszeni</h4>
-        <a href="/login">
+        <Link to={'/lgoin'}>
           <img src="images/arrowButton.svg" alt="Sign up button" />
-        </a>
+        </Link>
       </div>
     </div>
   );
