@@ -1,0 +1,33 @@
+.series {
+  margin-top: 0.5em;
+  display: flex;
+  p {
+    white-space: nowrap;
+  }
+}
+
+.addSerie {
+  margin-top: 1em;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  border: 0;
+  padding: 0;
+  background-color: #deaf08;
+  font-size: 0.9rem;
+
+  &:first-child {
+    margin-right: 1em;
+  }
+}
+
+.navi {
+  font-size: 1.1rem;
+}
+
+.card form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

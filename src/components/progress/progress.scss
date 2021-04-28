@@ -1,0 +1,25 @@
+.progress {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba($color: #000000, $alpha: 0.5);
+
+  .card {
+    select {
+      width: 100%;
+      height: 30px;
+      padding-left: 10px;
+      margin-bottom: 50px;
+    }
+
+    table {
+      width: 100%;
+
+      th {
+        padding: 1em;
+      }
+      td {
+        text-align: center;
+      }
+    }
+  }
+}

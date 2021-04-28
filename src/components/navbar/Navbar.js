@@ -12,7 +12,7 @@ const Navbar = () => {
           <Link to="/login">Zaloguj się</Link>
         </li>
         <li>
-          <Link to="/registration" className="register">
+          <Link to="/registration" className="registerButton">
             Zarejestruj się
           </Link>
         </li>
