@@ -19,7 +19,7 @@ const Login = () => {
     const user = { username, password };
     users.forEach((element) => {
       if (element.username === user.username) {
-        fetch('http://localhost:3001/login', {
+        fetch(process.env.REACT_APP_LOGIN_URL, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(user),
